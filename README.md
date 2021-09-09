@@ -1,0 +1,1 @@
+An Odin project to build a toy website. These are my real go to recipes though-if you like them or have an improvement please let me know!
