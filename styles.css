@@ -1,0 +1,45 @@
+body {
+  color: #414141;
+  background-color:#EEEEEE;
+  font-family: "Helvetica", "Times New Roman", serif;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.heading {
+  text-align: center;
+
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.heading,
+.bilbo {
+  color: red;
+}
+
+.bilbo {
+  font-size: 12px;
+  background-color: black;
+}
+
+.directions-list {
+  text-align: left;
+
+}
+
+
+#pictures {
+  width: 500px;
+  
+
+}
+
+
+#black {
+  color: white;
+}
