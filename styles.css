@@ -1,45 +1,28 @@
+/* Current best way of having universal box-sizing to apply border box to an entire page */
+
+/* to support older browser versions can add
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+  to both html and *, *:before, *::after
+  */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   color: #414141;
-  background-color:#EEEEEE;
+  background-color:#c9c9c9;
   font-family: "Helvetica", "Times New Roman", serif;
 }
 
-ul {
-  list-style-type: circle;
-}
-
-.heading {
-  text-align: center;
-
-}
-
-.heading {
-  font-size: 30px;
-}
-
-.heading,
-.bilbo {
-  color: red;
-}
-
-.bilbo {
-  font-size: 12px;
-  background-color: black;
-}
-
-.directions-list {
-  text-align: left;
-
-}
-
-
 #pictures {
   width: 500px;
-  
-
 }
 
 
-#black {
-  color: white;
-}
